@@ -59,3 +59,30 @@ section#redes-sociais > a > img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
     transition: transform .4s, border .1s;
 }
+
+@media (max-width: 600px) {
+    section#telefone {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    section#redes-sociais {
+        padding-top: 100px;
+        
+    }
+    
+    section#redes-sociais img{
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        
+    }
+    iframe#tela {
+        position: absolute;
+    }
+}
